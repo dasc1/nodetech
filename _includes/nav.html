@@ -1,6 +1,28 @@
 <nav>
   <ul class='nav {{include.navclass}}'>
-    <li><a href="{{site.baseurl}}/index.html" class="{% if page.url == '/' %}current{% endif %}">Node</a></li>
-    <li><a href="{{site.baseurl}}/jekyll.html" class="{% if page.url == '/jekyll.html' %}current{% endif %}">Jekyll</a></li>
+    <li>
+      <a href="{{site.baseurl}}/index.html" 
+         class="{% if page.url == '/' %}current{% endif %}">
+        node
+      </a>
+    </li>
+    <li>
+      <a href="{{site.baseurl}}/npm.html" 
+         class="{% if page.url == '/npm.html' %}current{% endif %}">
+        npm
+      </a>
+    </li>
+    <li>
+      <a href="{{site.baseurl}}/jekyll.html" 
+         class="{% if page.url == '/jekyll.html' %}current{% endif %}">
+        jekyll
+      </a>
+    </li>
+    <li>
+      <a href="{{site.baseurl}}/markdown.html" 
+         class="{% if page.url == '/markdown.html' %}current{% endif %}">
+        markdown
+      </a>
+    </li>
   </ul>
 </nav>
