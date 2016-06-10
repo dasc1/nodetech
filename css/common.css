@@ -1,10 +1,17 @@
 .nav > li {
   display: inline-block;
-  font-size: 24px;
   font-family: "Lucida Sans Unicode", "Lucida Grande", serif;
 }
 
 .current {
-  color: white;
-  background-color: blue;
+  color: black;
+  background-color: yellow;
+}
+
+.nav-top {
+  font-size: 24px;
+}
+
+.nav-bottom {
+  font-size: 18px;
 }
